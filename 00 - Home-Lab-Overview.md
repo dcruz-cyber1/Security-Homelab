@@ -1,13 +1,12 @@
 # 🏠 Home Lab Overview
 
-> **Purpose:** A hands-on security and networking lab that replicates real-world enterprise infrastructure — covering security hardening, network segmentation, log analysis, DNS, IDS/IPS, SIEM, containerization, and scripting.
+> **Purpose:** A hands on security and networking lab that replicates real world enterprise infrastructure — covering security hardening, network segmentation, log analysis, DNS, IDS/IPS, SIEM, containerization, and scripting.
 
 ---
 
 ## 🎯 Learning Goals
 
 - Security hardening (OS, network, application layer)
-- Network configuration & segmentation (VLANs, firewall rules, DMZs)
 - Log analysis, alerting & dashboards
 - DNS security and ad-blocking
 - Intrusion Detection & Prevention (IDS/IPS)
@@ -15,7 +14,6 @@
 - Endpoint Detection & Response (EDR)
 - Docker containerization
 - Remote access & Zero Trust networking
-- Scripting and automation (Bash, Python)
 - Media server stack management
 
 ---
@@ -51,5 +49,5 @@
 | Wazuh SIEM/EDR | ✅ Running |
 | Graylog | ✅ Running |
 | Copilot System Monitor | ✅ Running |
+| IDS/IPS Tuning | ✅ Running |
 | Network Segmentation | 🔧 In Progress |
-| IDS/IPS Tuning | 🔧 In Progress |
