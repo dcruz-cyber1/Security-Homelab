@@ -23,7 +23,7 @@
 | Role | Hostname | IP | Description |
 |------|----------|----|-------------|
 | Server | `homelab-server` | `192.168.1.200` | Main services host — see [[01 - Hardware]] |
-| Security Analyst | `laptop` | DHCP | Monitoring, log review, tooling |
+| Security Analyst | `laptop` | 192.168.1.209 | Monitoring, log review, tooling |
 | Attacker / Red Team | `desktop-attacker` | DHCP | Penetration testing, attack simulation |
 
 ---
