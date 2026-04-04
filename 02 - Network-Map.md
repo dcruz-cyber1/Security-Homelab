@@ -29,7 +29,7 @@ Internet
     │
     ├──── [Pi-hole]  ← DNS for all LAN + Tailscale devices
     │
-    ├──── [Security Laptop]  (analyst)
+    ├──── [Security Laptop] 192.168.1.209 (analyst)
     │
     └──── [Attacker Desktop]  (red team)
 
