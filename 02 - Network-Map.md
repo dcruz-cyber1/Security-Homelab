@@ -49,16 +49,6 @@ Tailscale Mesh (10.x.x.x / 100.x.x.x overlay)
 - **Benefit:** No exposed ports to public internet; SSH and services accessible only through Tailscale
 - **Interface:** `tailscale0` on server
 
-### Tailscale ACL Policy (document yours here)
-```json
-{
-  "acls": [
-    { "action": "accept", "src": ["autogroup:members"], "dst": ["192.168.1.200:*"] }
-  ]
-}
-```
-
----
 
 ## Pi-hole DNS
 
