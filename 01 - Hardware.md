@@ -11,13 +11,12 @@
 |-----------|---------|
 | **CPU** | AMD Ryzen 7 2700X (8-core / 16-thread, 3.7GHz base / 4.3GHz boost) |
 | **RAM** | 16 GB DDR4 @ 3200MHz |
-| **Motherboard** | TBD |
 
 ## GPU
 
 | Component | Details |
 |-----------|---------|
-| **GPU** | NVIDIA GTX 1600 series |
+| **GPU** | NVIDIA GTX 1660 |
 | **Use Cases** | Hardware transcoding (Jellyfin) |
 
 ## Networking
