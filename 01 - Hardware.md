@@ -10,22 +10,20 @@
 | Component | Details |
 |-----------|---------|
 | **CPU** | AMD Ryzen 7 2700X (8-core / 16-thread, 3.7GHz base / 4.3GHz boost) |
-| **RAM** | 16 GB DDR4 @ 3200MHz (estimated — update as needed) |
+| **RAM** | 16 GB DDR4 @ 3200MHz |
 | **Motherboard** | TBD |
-| **Storage** | TBD (add drives/SSDs here) |
 
 ## GPU
 
 | Component | Details |
 |-----------|---------|
 | **GPU** | NVIDIA GTX 1600 series |
-| **Use Cases** | Hardware transcoding (Jellyfin), future ML/AI workloads |
+| **Use Cases** | Hardware transcoding (Jellyfin) |
 
 ## Networking
 
 | Component | Details |
 |-----------|---------|
-| **NIC** | Onboard / PCIe (update as needed) |
 | **Bridge Interface** | `br0` — used for Docker + firewall rules |
 | **Tailscale Interface** | `tailscale0` — VPN mesh interface |
 
