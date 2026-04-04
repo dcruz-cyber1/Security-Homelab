@@ -71,7 +71,7 @@ Config: `/var/ossec/etc/ossec.conf`
 ### Input Sources
 | Source | Protocol | Port |
 |--------|---------|------|
-| System syslog | Syslog UDP/TCP | `514` |
+| System syslog | Syslog UDP/TCP | `5514` |
 | Docker containers | GELF | `12201` |
 | Wazuh alerts | Syslog / API | configurable |
 
