@@ -22,7 +22,7 @@ IR-2026-001 | April 2, 2026 | Homelab SOC Environment
 
 # **1. Executive Summary**
 
-On April 2, 2026, a simulated SSH brute force attack was conducted against the homelab server (192.168.1.200) from an authorized test machine (192.168.1.209). The attack was executed using Hydra v9.5 targeting the 'daniel' user account over SSH port 22. The attack was detected within seconds by the Graylog SIEM platform through auth log ingestion, and was simultaneously captured by Suricata IDS. The Grafana SOC dashboard displayed real-time spikes across multiple detection panels. Wazuh active response did not trigger an automated IP block during this test, which has been identified as a gap requiring investigation.
+On April 2, 2026, a simulated SSH brute force attack was conducted against the homelab server (192.168.1.200) from an authorized machine (192.168.1.209). The attack was using Hydra v9.5 targeting the 'daniel' user account over SSH port 22. The attack was detected within seconds by the Graylog SIEM platform through auth log ingestion, and was captured by Suricata IDS. The Grafana dashboard displayed real-time spikes across multiple panels. Wazuh active response did not trigger an automated IP block during this test, which has been identified as a gap requiring investigation.
 
 # **2. Environment**
 
@@ -144,6 +144,6 @@ Investigation revealed that Wazuh alerts are currently being written to the loca
 
 # **10. Conclusion**
 
-This exercise demonstrated a functioning homelab SOC capable of detecting a real SSH brute force attack in real time. The detection chain from attack to log to SIEM to dashboard visualization performed as designed. Gaps in the automated response pipeline have been identified and documented for remediation. The environment mirrors enterprise security architecture including SIEM (Graylog + Wazuh), IDS (Suricata), firewall (UFW), DNS security (Pi-hole), and zero-trust remote access (Tailscale).
+This demonstrated a functioning homelab capable of detecting a real SSH brute force attack in real time. The detection chain from attack to log to SIEM to dashboard visualization performed as designed. Gaps in the automated response pipeline have been identified and documented for remediation. The environment mirrors enterprise security architecture including SIEM (Graylog + Wazuh), IDS (Suricata), firewall (UFW), DNS security (Pi-hole), and zero-trust remote access (Tailscale).
 
 This incident report serves as evidence of hands-on security operations experience including attack simulation, log analysis, SIEM configuration, dashboard creation, and incident documentation.
