@@ -26,12 +26,12 @@ All services run as Docker containers on the homelab server (`192.168.1.200`).
 
 | Item | Detail |
 |------|--------|
-| **Purpose** | Network-wide ad blocking + DNS hardening |
+| **Purpose** | Network wide ad blocking + DNS hardening |
 | **Scope** | All LAN devices + Tailscale mesh devices |
 | **Interface** | Web dashboard on port `80`/`443` |
 | **DNS blocking** | Ad networks, tracking pixels, known malicious domains |
 
-**Security value:** Reduces attack surface by blocking malicious domains before any connection is made. Provides visibility into DNS traffic across the entire network.
+**Security value:** Reduces attack surface by blocking malicious domains before any connection. Provides visibility into DNS traffic across the entire network.
 
 ---
 
@@ -65,7 +65,7 @@ Useful for correlating system load with security events (e.g., CPU spike during 
 | **Purpose** | All-in-one security monitoring framework |
 | **Components** | Wazuh Manager, Wazuh Agent, OpenSearch/Kibana dashboard |
 | **Functions** | EDR, IDS, IPS, log collection, file integrity monitoring (FIM), vulnerability detection |
-| **Agents** | Deployed on server (add other machines as you expand) |
+| **Agents** | Deployed on server, and laptop as victim |
 | **Dashboard port** | `443` / `5601` |
 
 **What it monitors:**
