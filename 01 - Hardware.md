@@ -26,6 +26,17 @@
 | **Bridge Interface** | `br0` — used for Docker + firewall rules |
 | **Tailscale Interface** | `tailscale0` — VPN mesh interface |
 
+## ⚔️ Attack Machine — Lenovo IdeaCentre K330B
+
+| Component | Details |
+|-----------|---------|
+| **CPU** | Intel Core i3-2120 |
+| **GPU** | NVIDIA GTX 1660 Super |
+| **OS** | Kali Linux |
+| **Role** | Dedicated red team / attack machine |
+| **Network** | VLAN 3 — isolated, port 4 on switch |
+| **IP** | 192.168.1.50 |
+
 ---
 
 ## OS & Base Config
