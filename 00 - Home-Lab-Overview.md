@@ -42,4 +42,5 @@
 | Graylog | ✅ Running |
 | Copilot System Monitor | ✅ Running |
 | IDS/IPS Tuning | ✅ Running |
-| Network Segmentation | 🔧 In Progress |
+| Network Segmentation | ✅ Running |
+|Suricata| |✅ Running |
