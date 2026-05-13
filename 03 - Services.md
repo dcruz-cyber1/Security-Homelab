@@ -96,4 +96,21 @@ See [[04 - Security Stack]] for Wazuh rule configuration.
 
 ---
 
-*← Back to [[00 - Home Lab Overview]]*
+## 📊 Grafana (SOC Dashboard)
+
+| Item | Detail |
+|------|--------|
+| **Purpose** | Real-time SOC visualization dashboard |
+| **Runtime** | Docker — host network mode |
+| **Port** | `3000` |
+| **Datasources** | OpenSearch (Graylog data + Wazuh alerts) |
+
+**Panels:**
+- SSH Auth Events — detects brute force spikes
+- Suricata IDS Alerts — network attack detection
+- UFW Blocks — firewall block events
+- Wazuh Alerts — EDR rule triggers
+
+---
+
+
