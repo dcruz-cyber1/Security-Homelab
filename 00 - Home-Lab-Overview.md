@@ -43,4 +43,4 @@
 | Copilot System Monitor | ✅ Running |
 | IDS/IPS Tuning | ✅ Running |
 | Network Segmentation | ✅ Running |
-|Suricata| |✅ Running |
+|Suricata| ✅ Running |
