@@ -23,5 +23,4 @@ for hands-on attack simulation and detection.
 - [IR-2026-001 — SSH Brute Force Attack](incidents/IR-2026-001-SSH-Brute-Force.md)
 
 ## Screenshots
-![Grafana Dashboard](screenshots/grafana-dashboard-attack.png)
-![Graylog SSH Failures](screenshots/graylog-ssh-failures.png)
+<img width="1919" height="991" alt="Full Attack Session Overview" src="https://github.com/user-attachments/assets/8383abcb-1c78-4412-b4ee-0fe08e23f5a9" />![Graylog SSH Failures](screenshots/graylog-ssh-failures.png)
