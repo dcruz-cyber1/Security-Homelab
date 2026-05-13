@@ -64,6 +64,22 @@ sudo systemctl restart wazuh-manager
 
 ---
 
+## Checking Grafana Dashboard
+
+1. Open: `http://192.168.1.200:3000`
+2. Login: admin / (your password)
+3. Open **server logs** dashboard
+4. Set time range to **Last 15 minutes**, auto-refresh **10s** during attacks
+
+```bash
+# Reset Grafana admin password
+docker exec -it grafana grafana-cli admin reset-admin-password NewPassword123!
+
+# Restart Grafana
+cd /home/daniel/grafana && docker-compose restart
+```
+---
+
 ## Pi-hole Maintenance
 
 ```bash
