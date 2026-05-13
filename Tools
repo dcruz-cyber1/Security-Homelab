@@ -1,4 +1,5 @@
 ### Attack Tools (Red Team)
+```
 ---
 
 | Tool | Version | Purpose |
@@ -9,6 +10,7 @@
 | hping3 | v3.0 | DoS simulation — SYN flood against target |
 | rockyou.txt | — | Password wordlist — 14 million common passwords |
 
+```
 ---
 
 ### Defense Tools (Blue Team)
