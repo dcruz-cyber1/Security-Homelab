@@ -15,29 +15,20 @@
 
 ---
 
-## Network Diagram (Text)
-
-```
 Internet
     │
     ▼
- [Router/Modem]
+ [Router/Modem] 192.168.1.1
+    │
+    ▼
+ [TP-Link TL-SG108E] 192.168.1.254
     │  192.168.1.0/24
-    ├──── [Homelab Server] 192.168.1.200
-    │         ├── br0 (Docker bridge)
-    │         └── tailscale0 (VPN mesh)
-    │
-    ├──── [Pi-hole]  ← DNS for all LAN + Tailscale devices
-    │
-    ├──── [Security Laptop] 192.168.1.209 (analyst)
-    │
-    └──── [Attacker Desktop]  (red team)
-
-Tailscale Mesh (10.x.x.x / 100.x.x.x overlay)
-    ├── Server
-    ├── Phone
-    ├── TVs
-    └── Any approved remote device
+    ├── Port 1 ── Router
+    ├── Port 2 ── [Victim Laptop] 192.168.1.209 (VLAN 1+2)
+    ├── Port 3 ── [Homelab Server] 192.168.1.200 (VLAN 1)
+    │                 ├── br0 (Docker bridge)
+    │                 └── tailscale0 (VPN mesh)
+    └── Port 4 ── [Kali Attack Machine] 192.168.1.50 (VLAN 3 — isolated)
 ```
 ## 🔀 Switch & VLAN Configuration
 
