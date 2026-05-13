@@ -77,6 +77,7 @@ Internet
 Port `53` is allowed inbound only on `br0` (Docker bridge) — see [[05 - Firewall Rules]].
 
 ```
+---
 ## Subnets in Use
 
 | Subnet | Use |
@@ -84,6 +85,5 @@ Port `53` is allowed inbound only on `br0` (Docker bridge) — see [[05 - Firewa
 | `192.168.0.0/16` | Full LAN range — allowed inbound by UFW |
 | `100.x.x.x` | Tailscale overlay network |
 | Docker bridge | Internal container networking |
-
-
+---
 
