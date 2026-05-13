@@ -8,8 +8,8 @@
 |--------|----|-----------|-------|
 | **Homelab Server** | `192.168.1.200` | `br0` / `eth0` | Static — main services host |
 | **Pi-hole** | `192.168.1.x` (update) | LAN | DNS resolver for all LAN devices |
-| **Security Laptop** | DHCP | LAN | Analyst machine — Wireshark, log review |
-| **Attacker Desktop** | DHCP | LAN | Red team / pentest machine |
+| **Security Laptop** | 192.168.1.209 | LAN |Victim machine — Wazuh agent — VLAN 2 |
+| **Attacker Desktop** | 192.168.1.50 | LAN | Kali Linux — dedicated attack machine — VLAN 3 isolated |
 | **Phone** | Tailscale IP | `tailscale0` | Remote access via VPN |
 | **Smart TVs** | Tailscale or LAN | LAN / `tailscale0` | Routed through Pi-hole DNS |
 
