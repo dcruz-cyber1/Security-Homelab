@@ -39,6 +39,23 @@ Tailscale Mesh (10.x.x.x / 100.x.x.x overlay)
     ├── TVs
     └── Any approved remote device
 ```
+## 🔀 Switch & VLAN Configuration
+
+**Switch:** TP-Link TL-SG108E — Management IP: 192.168.1.254
+
+| Port | Device | VLAN | Notes |
+|------|--------|------|-------|
+| Port 1 | Router | 1 | Uplink |
+| Port 2 | Laptop (victim) | 1+2 | Has internet + reachable by Kali |
+| Port 3 | Server | 1 | Core services |
+| Port 4 | Kali (attacker) | 3 | Isolated — no internet, laptop only |
+| Ports 5-8 | Spare | 1 | General use |
+
+**Isolation rules:**
+- Kali can reach laptop ✅
+- Kali cannot reach server ✅
+- Kali has no internet ✅
+- Server and laptop can communicate ✅
 
 ---
 
