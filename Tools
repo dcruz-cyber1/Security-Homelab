@@ -1,6 +1,8 @@
-### Attack Tools (Red Team)
-```
+# 📘 Security Stack & Tooling
+
 ---
+
+## Attack Tools (Red Team)
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -10,14 +12,14 @@
 | hping3 | v3.0 | DoS simulation — SYN flood against target |
 | rockyou.txt | — | Password wordlist — 14 million common passwords |
 
-```
 ---
 
-### Defense Tools (Blue Team)
+## Defense Tools (Blue Team)
+
 | Tool | Version | Purpose |
 |------|---------|---------|
 | Graylog | v6.x | SIEM — centralized log ingestion and alerting |
-| Suricata | v7.0.3 | Network IDS — 49,314 rules on enp5s0 |
+| Suricata | v7.0.3 | Network IDS — 49,314 rules on `enp5s0` |
 | Wazuh | v4.14.5 | EDR/IPS — host-based detection and active response |
 | Grafana | Latest | SOC dashboard — real-time visualization |
 | OpenSearch | v2.19.4 | Search backend — log storage and querying |
