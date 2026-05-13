@@ -96,6 +96,18 @@ See [[04 - Security Stack]] for Wazuh rule configuration.
 
 ---
 
+## 🕵️ Suricata (Network IDS)
+
+| Item | Detail |
+|------|--------|
+| **Purpose** | Network intrusion detection |
+| **Runtime** | Native (non-Docker) |
+| **Interface** | enp5s0 |
+| **Rules** | 49,314 active rules |
+| **Output** | eve.json → rsyslog → Graylog |
+
+---
+
 ## 📊 Grafana (SOC Dashboard)
 
 | Item | Detail |
