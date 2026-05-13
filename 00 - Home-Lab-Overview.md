@@ -28,14 +28,6 @@
 
 ---
 
-## 🔗 Quick Links
-
-- [[01 - Hardware]] — Server specs & components
-- [[02 - Network Map]] — IP layout, devices, Tailscale mesh
-- [[03 - Services]] — All running services & stacks
-- [[04 - Security Stack]] — Firewall rules, Wazuh, IDS/IPS
-- [[05 - Firewall Rules]] — UFW rules breakdown
-- [[06 - Runbooks]] — Setup guides & procedures
 
 ---
 
