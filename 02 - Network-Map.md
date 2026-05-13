@@ -48,6 +48,7 @@ Internet
 - Kali has no internet ✅
 - Server and laptop can communicate ✅
 
+
 ---
 
 ## Tailscale VPN Mesh
