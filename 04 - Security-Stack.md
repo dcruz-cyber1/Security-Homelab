@@ -104,7 +104,7 @@ Config: `/var/ossec/etc/ossec.conf`
 | SSH brute force | UFW rate limit + Wazuh active response |
 | Malicious DNS resolution | Pi-hole blocklists |
 | Unauthorized remote access | Tailscale zero-trust (device auth required) |
-| Lateral movement | Network segmentation via br0/VLAN (in progress) |
+| Lateral movement | Network segmentation via br0 + TP-Link VLAN switch (active) |
 | Malware / rootkits | Wazuh FIM + rootkit detection |
 | Exposed services | All services behind Tailscale — no public ports |
 | Log tampering | Centralized Graylog (logs shipped off-host) |
