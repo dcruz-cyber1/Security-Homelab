@@ -32,6 +32,8 @@ Internet
 
 ## 🔀 Switch & VLAN Configuration
 
+---
+
 **Switch:** TP-Link TL-SG108E — Management IP: 192.168.1.254
 
 | Port | Device | VLAN | Notes |
@@ -42,6 +44,8 @@ Internet
 | Port 4 | Kali (attacker) | 3 | Isolated — no internet, laptop only |
 | Ports 5-8 | Spare | 1 | General use |
 
+---
+
 **Isolation rules:**
 - Kali can reach laptop ✅
 - Kali cannot reach server ✅
@@ -50,6 +54,7 @@ Internet
 
 
 ---
+```
 
 ## Tailscale VPN Mesh
 
@@ -58,6 +63,7 @@ Internet
 - **Benefit:** No exposed ports to public internet; SSH and services accessible only through Tailscale
 - **Interface:** `tailscale0` on server
 
+```
 
 ## Pi-hole DNS
 
@@ -67,6 +73,7 @@ Internet
 - **DNS-over-HTTPS:** (enabled/disabled — update)
 
 Port `53` is allowed inbound only on `br0` (Docker bridge) — see [[05 - Firewall Rules]].
+```
 
 ---
 
