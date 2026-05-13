@@ -78,11 +78,8 @@ Port `53` is allowed inbound only on `br0` (Docker bridge) — see [[05 - Firewa
 
 ```
 
----
+
 ## Subnets in Use
-
-
-
 
 | Subnet | Use |
 |--------|-----|
@@ -90,5 +87,5 @@ Port `53` is allowed inbound only on `br0` (Docker bridge) — see [[05 - Firewa
 | `100.x.x.x` | Tailscale overlay network |
 | Docker bridge | Internal container networking |
 
----
+
 
