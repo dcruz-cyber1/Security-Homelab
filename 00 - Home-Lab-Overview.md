@@ -44,3 +44,4 @@
 | IDS/IPS Tuning | ✅ Running |
 | Network Segmentation | ✅ Running |
 |Suricata| ✅ Running |
+|Grafana SOC Dashboard | ✅ Running |
