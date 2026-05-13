@@ -88,6 +88,14 @@ Config: `/var/ossec/etc/ossec.conf`
 - `New sudo user added` → alert
 
 ---
+## Suricata — Network IDS
+
+| Function | Description |
+|----------|-------------|
+| **Rule-based detection** | 49,314 rules monitoring enp5s0 |
+| **Protocol analysis** | HTTP, DNS, SSH, FTP, SMB and more |
+| **Alert output** | eve.json → rsyslog → Graylog → Grafana |
+| **Coverage** | Detects nmap scans, brute force, DoS, exploits |
 
 ## Threat Model — What This Lab Defends Against
 
