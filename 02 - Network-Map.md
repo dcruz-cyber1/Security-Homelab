@@ -14,7 +14,7 @@
 | **Smart TVs** | Tailscale or LAN | LAN / `tailscale0` | Routed through Pi-hole DNS |
 
 ---
-
+```
 Internet
     │
     ▼
@@ -29,7 +29,7 @@ Internet
     │                 ├── br0 (Docker bridge)
     │                 └── tailscale0 (VPN mesh)
     └── Port 4 ── [Kali Attack Machine] 192.168.1.50 (VLAN 3 — isolated)
-```
+
 ## 🔀 Switch & VLAN Configuration
 
 **Switch:** TP-Link TL-SG108E — Management IP: 192.168.1.254
