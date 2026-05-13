@@ -24,7 +24,7 @@
 |------|----------|----|-------------|
 | Server | `homelab-server` | `192.168.1.200` | Main services host — see [[01 - Hardware]] |
 | Security Analyst | `laptop` | 192.168.1.209 | Monitoring, log review, tooling |
-| Attacker / Red Team | `desktop-attacker` | DHCP | Penetration testing, attack simulation |
+| Attacker / Red Team | `attack` | 192.168.1.50  |Kali Linux — dedicated attack machine — VLAN 3 isolated |
 
 ---
 
