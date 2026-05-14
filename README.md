@@ -20,7 +20,7 @@ for hands-on attack simulation and detection.
 - Produced formal incident report IR-2026-001
 
 ## Incidents
-- [IR-2026-001 — SSH Brute Force Attack](incidents/IR-2026-001-SSH-Brute-Force.md)
+- [IR-2026-001 — SSH Brute Force Attack](    Security-Homelab/07 All-incident-reports.md)
 
 
 ## Screenshots
