@@ -21,7 +21,7 @@ for hands-on attack simulation and detection.
 
 ## Incidents
 - [** Security-Homelab/07 All-incident-reports.md**](https://github.com/dcruz-cyber1/Security-Homelab/blob/1124b2a584a17da3fcb91690dce728a8288d1f40/IR-SSH-Brute-Force%20.md) )
--[** lab](https://github.com/dcruz-cyber1/Security-Homelab/blob/1124b2a584a17da3fcb91690dce728a8288d1f40/IR-SSH-Brute-Force%20.md) )
+- [** IR-SSH-Brute-Force .md](https://github.com/dcruz-cyber1/Security-Homelab/blob/1124b2a584a17da3fcb91690dce728a8288d1f40/IR-SSH-Brute-Force%20.md) )
 
 ## Screenshots
 ## Overview
