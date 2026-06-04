@@ -1,0 +1,47 @@
+# 🏠 Home Lab Overview
+
+> **Purpose:** A hands on security and networking lab that replicates real world enterprise infrastructure — covering security hardening, network segmentation, log analysis, DNS, IDS/IPS, SIEM, containerization, and scripting.
+
+---
+
+## 🎯 Learning Goals
+
+- Security hardening (OS, network, application layer)
+- Log analysis, alerting & dashboards
+- DNS security and ad-blocking
+- Intrusion Detection & Prevention (IDS/IPS)
+- SIEM deployment and tuning
+- Endpoint Detection & Response (EDR)
+- Docker containerization
+- Remote access & Zero Trust networking
+- Media server stack management
+
+---
+
+## 🖥️ Lab Machines
+
+| Role | Hostname | IP | Description |
+|------|----------|----|-------------|
+| Server | `homelab-server` | `192.168.1.200` | Main services host — see [[01 - Hardware]] |
+| Security Analyst | `laptop` | 192.168.1.209 | Monitoring, log review, tooling |
+| Attacker / Red Team | `attack` | 192.168.1.50  |Kali Linux — dedicated attack machine — VLAN 3 isolated |
+
+---
+
+
+---
+
+## 📅 Lab Status
+
+| Area | Status |
+|------|--------|
+| Media Stack (Arr + Jellyfin) | ✅ Running |
+| Pi-hole DNS | ✅ Running |
+| Tailscale VPN mesh | ✅ Running |
+| Wazuh SIEM/EDR | ✅ Running |
+| Graylog | ✅ Running |
+| Copilot System Monitor | ✅ Running |
+| IDS/IPS Tuning | ✅ Running |
+| Network Segmentation | ✅ Running |
+|Suricata| ✅ Running |
+|Grafana SOC Dashboard | ✅ Running |
